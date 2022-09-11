@@ -5,7 +5,7 @@ Infrastructure is shown on the diagram below:
 
 <img src="https://github.com/AleX77NP/Pulumi-Kinesis/raw/main/images/diagram.jpg">
 
-Prerequisite:
+Prerequisites:
 ===========================
 Following things are required for this project:
 - Node.js
