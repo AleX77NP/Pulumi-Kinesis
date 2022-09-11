@@ -34,7 +34,7 @@ data:
 
 Folders and files:
 ===========================
-- `index.ts` is the entry for Pulumi program
+- `index.ts` is the entry point for Pulumi program
 - `resources/` is where our Kinesis services are defined
 - `go-producer/` is our Producer that puts data into the stream
 - `real-time-query.txt` is a text file with SQL query example
