@@ -1,0 +1,3 @@
+name: aws-data
+description: Playground setup for some Data services on AWS.
+runtime: nodejs

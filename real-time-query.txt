@@ -1,0 +1,11 @@
+CREATE OR REPLACE STREAM "DESTINATION_SQL_STREAM" (
+    id INT,
+    uid VARCHAR(100), 
+    brand VARCHAR(20),
+    equipment VARCHAR(255)
+);
+    
+CREATE OR REPLACE PUMP "STREAM_PUMP" AS INSERT INTO "DESTINATION_SQL_STREAM"
+    
+SELECT STREAM "id", "uid", "brand", "equipment"
+FROM "appliances_analytics_prefix_001";
