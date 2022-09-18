@@ -8,7 +8,7 @@ Infrastructure is shown on the diagram below:
 Prerequisites:
 ===========================
 Following things are required for this project:
-- Node.js
+- Node.js (TypeScript)
 - Pulumi
 - AWS account/sandbox
 - AWS CLI installed
